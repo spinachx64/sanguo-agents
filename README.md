@@ -63,7 +63,7 @@ sanguo-agents/
 └── CLAUDE.md                      # 项目级约束
 ```
 
-> `lord-manual.md` 需要在`CLAUDE.md`文件中强制加载，如果直接复制`agents`目录改名为`.agents`，也可以加载`./agents/ord-manual.md`。
+> `lord-manual.md` 需要在`CLAUDE.md`文件中强制加载，如果直接复制`agents`到`.claude`下，也可以加载`.claude/agents/lord-manual.md`。
 
 ---
 
