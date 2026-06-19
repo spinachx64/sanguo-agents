@@ -77,18 +77,21 @@ agent 文件命名约定：`agents/` 与 `.claude/agents/` 下一律用英文拼
 
 用户向主公提需求，主公按四类分流判断指派哪位武将，以 sub-agent 形式后台运行，不阻塞主会话。
 
+> 示例：让赵云写README.md，孔明审核，法正归档。
+> 注意：此过程会消耗更多Token。
+
 ### 赵云两番工作流（硬仗标准流程）
 
 **头一番·出策**
 
 1. 主公点赵云，令他「出方略」
 2. 赵云扫 `archive/index.md` 调阅相关资产，探查现状
-3. 走 `/sdd-probe init` 拟出 `mini-spec.md`（目标、约束、验收点、未知点）
+3. 走 `/mini-spec init` 拟出 `mini-spec.md`（目标、约束、验收点、未知点）
 4. 呈回方略，主公转奏用户对齐——此番止于 spec，不动手
 
 **第二番·执行**
 
 1. 用户对齐后，主公再点赵云，令他「附方略、照此办」
 2. 赵云读已定稿的 `mini-spec.md`，重探现状
-3. 走 `/sdd-probe plan`（phase 版）→ `/sdd-probe progress`，诸 phase 一气办到底
+3. 走 `/mini-spec plan`（phase 版）→ `/mini-spec progress`，诸 phase 一气办到底
 4. 诸 phase 毕，按 phase 逐段复命，并呈底单交主公裁夺是否转法正归档
