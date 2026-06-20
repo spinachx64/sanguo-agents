@@ -98,4 +98,4 @@ sanguo-agents/
 3. 走 `/mini-spec plan`（phase 版）→ `/mini-spec progress`，诸 phase 一气办到底
 4. 诸 phase 毕，按 phase 逐段复命，并呈底单交主公裁夺是否转法正归档
 
-> mini-spec见：主页/spinachx64/mini-spec
+> mini-spec见：主页[/spinachx64/mini-spec](https://github.com/spinachx64/mini-spec)
