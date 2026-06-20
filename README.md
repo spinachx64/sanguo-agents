@@ -8,6 +8,13 @@
 
 ---
 
+## 安装
+
+1. 复制`agents`到`.claude`目录下进行安装。
+2. `lord-manual.md`：主公手册（主会话启动时加载），需要在`CLAUDE.md`文件中强制加载。
+
+---
+
 ## 阵中部属 / The Roster
 
 | 武将 | Model | 职责 | 适用场景 |
@@ -56,12 +63,8 @@ sanguo-agents/
 │   └── chronicles/
 │       ├── tasks/                 # 底单登记（经法正落成的差事档案）
 │       └── archive/               # 集团资产：约定、陷阱、决策；含 index.md 总目
-├── workbench/                     # 临时工作区，存放进行中差事的草稿与中间产物
-├── lord-manual.md                 # 主公手册（主会话启动时加载）
-└── CLAUDE.md                      # 项目级约束
+└── CLAUDE.md                      # 项目级约束，要求加载`.claude/agents/lord-manual.md`
 ```
-
-> `lord-manual.md` 需要在`CLAUDE.md`文件中强制加载，如果直接复制`agents`到`.claude`下，也可以加载`.claude/agents/lord-manual.md`。
 
 ---
 
