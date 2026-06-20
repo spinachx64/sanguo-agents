@@ -97,3 +97,5 @@ sanguo-agents/
 2. 赵云读已定稿的 `mini-spec.md`，重探现状
 3. 走 `/mini-spec plan`（phase 版）→ `/mini-spec progress`，诸 phase 一气办到底
 4. 诸 phase 毕，按 phase 逐段复命，并呈底单交主公裁夺是否转法正归档
+
+> mini-spec见：主页/spinachx64/mini-spec
